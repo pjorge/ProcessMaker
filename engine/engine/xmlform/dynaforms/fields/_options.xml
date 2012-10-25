@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="_options" type="grid" width="100%" editRow="0" insertRow="0">
+  <NAME type="text" validate="Field">
+    <en>Value</en>
+    <pt><![CDATA[Valor]]></pt>
+  </NAME>
+  <LABEL type="text">
+    <en>Label</en>
+    <pt><![CDATA[Label]]></pt>
+  </LABEL>
+</dynaForm>

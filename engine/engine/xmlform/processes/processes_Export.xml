@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="processes_Export" type="xmlform" width="580px" labelWidth="130px">
+  <TITLE type="title">
+    <en>processes Info</en>
+    <pt><![CDATA[Informações dos processos]]></pt>
+  </TITLE>
+  <PRO_TITLE type="caption">
+    <en>Process Title</en>
+    <pt><![CDATA[Título do processo]]></pt>
+  </PRO_TITLE>
+  <PRO_UID type="hidden">
+    <en>Process Uid</en>
+  </PRO_UID>
+  <PRO_DESCRIPTION type="caption">
+    <en>Description</en>
+    <pt><![CDATA[Descrição]]></pt>
+  </PRO_DESCRIPTION>
+  <SIZE type="caption">
+    <en>Size in bytes</en>
+    <pt><![CDATA[Tamanho em bytes]]></pt>
+  </SIZE>
+  <FILENAME type="phpVariable"/>
+  <FILENAMEXPDL type="phpVariable"/>
+  <FILENAME_LINK type="phpVariable"/>
+  <FILENAME_LINKXPDL type="phpVariable"/>
+  <FILENAME_LABEL type="link" value="@#FILENAME" link="@#FILENAME_LINK" target="_blank">
+    <en>File</en>
+    <pt><![CDATA[Arquivo]]></pt>
+  </FILENAME_LABEL>
+  <FILENAME_LABEL1 type="link" value="@#FILENAMEXPDL" link="@#FILENAME_LINKXPDL" target="_blank">
+    <en>File xpdl</en>
+    <pt><![CDATA[File xpdl]]></pt>
+  </FILENAME_LABEL1>
+  <JS type="javascript"><![CDATA[
+var nextStep = function(oForm)
+{
+  oForm.action = 'cases_NextStep';
+  oForm.submit();
+};
+]]></JS>
+</dynaForm>

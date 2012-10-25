@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="authSources/authSources_SelectType" type="xmlform" enableTemplate="1">
+  <TITLE type="title">
+    <en>Available Authentication Source Types</en>
+    <pt><![CDATA[Available Authentication Source Types]]></pt>
+  </TITLE>
+  <AUTH_SOURCE_PROVIDER type="dropdown" size="20" maxlength="20" required="1" sqlConnection="dbarray">
+SELECT sType, sLabel FROM authSourceTypes
+  <en>Provider</en>
+<pt><![CDATA[Provider]]></pt></AUTH_SOURCE_PROVIDER>
+  <btnContinue type="submit">
+    <en>Continue</en>
+    <pt><![CDATA[Continue]]></pt>
+  </btnContinue>
+  <BTN_CANCEL type="button" onclick="cancel();">
+    <en>Cancel</en>
+    <pt><![CDATA[Cancel]]></pt>
+  </BTN_CANCEL>
+  <JS type="javascript" replacetags="1"><![CDATA[
+
+function cancel(){
+    window.location = 'authSources_List';
+}
+
+
+]]></JS>
+</dynaForm>

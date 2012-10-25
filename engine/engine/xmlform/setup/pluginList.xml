@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm width="680" menu="setup/plugin_ListOptions">
+  <id type="text" colWidth="20" titleAlign="left" align="left">
+    <en>#</en>
+    <pt><![CDATA[Número]]></pt>
+  </id>
+  <title type="text" colWidth="150" titleAlign="left" align="left">
+    <en>Name (File)</en>
+    <pt><![CDATA[Nome (Arquivo)]]></pt>
+  </title>
+  <description type="text" colWidth="350" titleAlign="left" align="left">
+    <en>Description</en>
+    <pt><![CDATA[Descrição]]></pt>
+  </description>
+  <version type="text" colWidth="50" titleAlign="left" align="left">
+    <en>Version</en>
+    <pt><![CDATA[Version]]></pt>
+  </version>
+  <!--enabled type="link" value="@#enabled" link="@#url" colWidth="40" align="center"-->
+  <sFile type="hidden"/>
+  <sStatusFile type="hidden"/>
+  <enabled type="link" value="@#enabled" onclick="goonext('@#sFile','@#sStatusFile');return;" colWidth="40" align="center">
+    <en/>
+    <pt><![CDATA[]]></pt>
+  </enabled>
+  <remove type="link" value="Remove" link="@#urlRemove" colWidth="20" align="right">
+    <en/>
+    <pt><![CDATA[]]></pt>
+  </remove>
+  <linkEditValue type="link" value="@#linkEditValue" link="@#urlEdit" colWidth="40" align="center">
+    <en/>
+    <pt><![CDATA[]]></pt>
+  </linkEditValue>
+</dynaForm>

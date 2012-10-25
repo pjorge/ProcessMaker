@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" name="webservices" width="500" mode="edit" border="0" enableTemplate="0" height="150px">
+  <SESSION_ID type="text" size="36" maxlength="32">
+    <en>Session Id</en>
+    <pt><![CDATA[Session Id]]></pt>
+  </SESSION_ID>
+  <CASE_ID type="dropdown" sqlConnection="dbarray">
+  SELECT * from case
+  <en>Case ID</en>
+<pt><![CDATA[Case ID]]></pt></CASE_ID>
+  <DEL_INDEX type="dropdown" sqlConnection="dbarray">
+  SELECT * from taskCases
+  <en>Delindex<option name="">Default</option></en>
+<pt><![CDATA[Delindex]]><option name=""><![CDATA[Default]]></option></pt></DEL_INDEX>
+  <USERIDSOURCE type="dropdown" sqlConnection="dbarray">
+  SELECT * from user
+  <en>User Source</en>
+<pt><![CDATA[User Source]]></pt></USERIDSOURCE>
+  <USERIDTARGET type="dropdown" sqlConnection="dbarray">
+  SELECT * from user
+  <en>User Target</en>
+<pt><![CDATA[User Target]]></pt></USERIDTARGET>
+  <ACTION type="hidden">
+</ACTION>
+  <ACTIONB type="button" onclick="submitThisForm(this.form);">
+    <en>ReassignCase</en>
+    <pt><![CDATA[ReassignCase]]></pt>
+  </ACTIONB>
+</dynaForm>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="processes_New" width="500px" labelWidth="90px" enableTemplate="0">
+  <title type="title">
+    <en>Process sucessfully imported</en>
+    <pt><![CDATA[Processo importado com sucesso]]></pt>
+  </title>
+  <pro_title type="caption" size="40">
+    <en>Process Title</en>
+    <pt><![CDATA[Título do processo]]></pt>
+  </pro_title>
+  <version type="caption" size="40">
+    <en>Version</en>
+    <pt><![CDATA[Versão]]></pt>
+  </version>
+  <category type="caption" size="40">
+    <en>Category</en>
+    <pt><![CDATA[Categoria]]></pt>
+  </category>
+  <PRO_UID type="caption" size="40">
+    <en>Process Uid</en>
+    <pt><![CDATA[UID do processo]]></pt>
+  </PRO_UID>
+  <TITLE1 type="subtitle">
+    <en>Please follow these instructions to complete installation</en>
+    <pt><![CDATA[Por favor siga estas instruções para completar a instalação]]></pt>
+  </TITLE1>
+  <installSteps type="caption" enableHtml="1">
+    <en/>
+    <pt><![CDATA[]]></pt>
+  </installSteps>
+  <SUBMIT type="submit">
+    <en>Continue</en>
+    <pt><![CDATA[Continuar]]></pt>
+  </SUBMIT>
+</dynaForm>

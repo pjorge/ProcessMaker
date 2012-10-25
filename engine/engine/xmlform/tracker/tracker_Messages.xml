@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="tracker_DynaDocs" width="100%" rowsPerPage="50" menu="">
+  <APP_UID type="private" showInTable="0"/>
+  <APP_MSG_UID type="private" showInTable="0"/>
+  <APP_MSG_DATE type="text" colWidth="150" titleAlign="left" align="left">
+    <en>DATE</en>
+    <pt-BR><![CDATA[Dados]]></pt-BR>
+    <pt><![CDATA[Dados]]></pt>
+  </APP_MSG_DATE>
+  <APP_MSG_SUBJECT type="text" colWidth="200" titleAlign="left" align="left">
+    <en>SUBJECT</en>
+    <pt-BR><![CDATA[Assunto]]></pt-BR>
+    <pt><![CDATA[Assunto]]></pt>
+  </APP_MSG_SUBJECT>
+  <APP_MSG_FROM type="text" colWidth="200" titleAlign="left" align="left">
+    <en>FROM</en>
+    <pt-BR><![CDATA[De]]></pt-BR>
+    <pt><![CDATA[De]]></pt>
+  </APP_MSG_FROM>
+  <APP_MSG_TO type="text" colWidth="200" titleAlign="left" align="left">
+    <en>TO</en>
+    <pt-BR><![CDATA[Para]]></pt-BR>
+    <pt><![CDATA[Para]]></pt>
+  </APP_MSG_TO>
+  <VIEW type="link" colWidth="50" link="tracker_MessagesView?APP_UID=@#APP_UID&amp;APP_MSG_UID=@#APP_MSG_UID" value="@#VIEW">
+    <en/>
+    <pt><![CDATA[]]></pt>
+  </VIEW>
+</dynaForm>

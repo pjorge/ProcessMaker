@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="cases_AttachInputDocument3" type="xmlform" width="400px" labelWidth="100px" enableTemplate="1">
+  <TITLE1 type="title">
+    <en>Import Process</en>
+    <pt><![CDATA[Import Process]]></pt>
+  </TITLE1>
+  <PROCESS_FILENAME type="file">
+    <en>File</en>
+    <pt><![CDATA[File]]></pt>
+  </PROCESS_FILENAME>
+  <SAVE type="button" onclick="verifyFile(this.form);">
+    <en>Import</en>
+    <pt><![CDATA[Import]]></pt>
+  </SAVE>
+  <BTN_CANCEL type="button" onclick="cancel();">
+    <en>Cancel</en>
+    <pt><![CDATA[Cancel]]></pt>
+  </BTN_CANCEL>
+  <JS type="javascript" replacetags="1"><![CDATA[
+
+var verifyFile = function(oForm) {
+  if (document.getElementById('form[PROCESS_FILENAME]').value != '') {
+    oForm.submit();
+  }
+  else {
+    alert('@G::LoadTranslation(ID_SELECT_FILE_PM_IMPORT)');
+  }
+};
+
+function cancel(){
+  history.back();   
+}
+
+]]></JS>
+</dynaForm>

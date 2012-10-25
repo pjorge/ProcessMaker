@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="webservices" width="500" mode="edit" border="0" enableTemplate="0" height="260px">
+  <SESSION_ID type="text" size="36" maxlength="32">
+    <en>Session Id</en>
+    <es><![CDATA[Id de Sesión]]></es>
+    <pt><![CDATA[ID da sessão]]></pt>
+  </SESSION_ID>
+  <PROCESS_ID type="dropdown" sqlConnection="dbarray">
+  SELECT * from process
+  <en>Process ID</en>
+<es>ID Proceso</es><pt><![CDATA[ID do processo]]></pt></PROCESS_ID>
+  <USER_ID type="dropdown" sqlConnection="dbarray">
+   SELECT * from user
+  <en>User ID</en>
+<es>ID Usuario</es><pt><![CDATA[ID de usuário]]></pt></USER_ID>
+  <VARIABLES type="grid" xmlgrid="setup/wsVariablesGrid" addrow="1" deleterow="1"/>
+  <ACTION type="hidden">
+</ACTION>
+  <ACTIONB type="button" onclick="submitThisForm(this.form);">
+    <en>NewCaseImpersonate</en>
+    <es>Nuevo caso</es>
+    <pt><![CDATA[NewCaseImpersonate]]></pt>
+  </ACTIONB>
+</dynaForm>

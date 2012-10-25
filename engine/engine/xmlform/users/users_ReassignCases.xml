@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable">
+  <PROCESS type="text" colWidth="250" titleAlign="left" align="left">
+    <en>Process</en>
+    <pt><![CDATA[Process]]></pt>
+  </PROCESS>
+  <CANTITY type="text" colWidth="50" titleAlign="left" align="left">
+    <en>No. of cases</en>
+    <pt><![CDATA[No. of cases]]></pt>
+  </CANTITY>
+  <USERS type="text" colWidth="200" titleAlign="left" align="left" enableHtml="1">
+    <en>Reassign to</en>
+    <pt><![CDATA[Reassign to]]></pt>
+  </USERS>
+</dynaForm>

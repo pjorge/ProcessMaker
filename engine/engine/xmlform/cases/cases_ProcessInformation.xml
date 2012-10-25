@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="cases_ProcessInformation" width="100%" labelWidth="35%" mode="view" enableTemplate="0">
+  <PRO_TITLE type="text" size="40" maxlength="255" defaultvalue="" required="1" group="1" dependentfields="" linkfield="" strto="" readonly="0" noshowingrid="0" readonlyingrid="0" totalizeable="0" sqlconnection="">
+    <en>Title</en>
+    <pt><![CDATA[Título]]></pt>
+  </PRO_TITLE>
+  <PRO_DESCRIPTION type="textarea" required="0" cols="38" rows="5" group="1">
+    <en>Description</en>
+    <pt><![CDATA[Descrição]]></pt>
+  </PRO_DESCRIPTION>
+  <PRO_AUTHOR type="text" size="40" maxlength="255" defaultvalue="" required="1" group="1" dependentfields="" linkfield="" strto="" readonly="0" noshowingrid="0" readonlyingrid="0" totalizeable="0" sqlconnection="">
+    <en>Author</en>
+    <pt><![CDATA[Autor]]></pt>
+  </PRO_AUTHOR>
+  <PRO_CREATE_DATE type="date" required="" group="1">
+    <en>Create Date</en>
+    <pt><![CDATA[Data de criação]]></pt>
+  </PRO_CREATE_DATE>
+</dynaForm>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" menu="" searchBy="" width="570">
+  <SCH_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en>Scheduled Task ID</en>
+    <pt><![CDATA[Scheduled Task ID]]></pt>
+  </SCH_UID>
+  <TAS_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en>Task ID</en>
+    <pt><![CDATA[Task ID]]></pt>
+  </TAS_UID>
+  <PRO_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en>Process Id</en>
+    <pt><![CDATA[Process Id]]></pt>
+  </PRO_UID>
+  <USR_NAME type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en>User</en>
+    <pt><![CDATA[User]]></pt>
+  </USR_NAME>
+  <EXEC_DATE type="text" titlealign="left" align="left" colWidth="100" mode="view">
+    <en>Execution Date</en>
+    <pt><![CDATA[Execution Date]]></pt>
+  </EXEC_DATE>
+  <EXEC_HOUR type="text" titlealign="left" align="left" colWidth="100" mode="view">
+    <en>Execution Hour</en>
+    <pt><![CDATA[Execution Hour]]></pt>
+  </EXEC_HOUR>
+  <RESULT type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en>Execution Status</en>
+    <pt><![CDATA[Execution Status]]></pt>
+  </RESULT>
+  <WS_CREATE_CASE_STATUS type="text" titlealign="left" align="left" colWidth="140" mode="view">
+    <en>Created Case Status</en>
+    <pt><![CDATA[Created Case Status]]></pt>
+  </WS_CREATE_CASE_STATUS>
+  <WS_ROUTE_CASE_STATUS type="text" titlealign="left" align="left" colWidth="140" mode="view">
+    <en>Routed Case Status</en>
+    <pt><![CDATA[Routed Case Status]]></pt>
+  </WS_ROUTE_CASE_STATUS>
+</dynaForm>

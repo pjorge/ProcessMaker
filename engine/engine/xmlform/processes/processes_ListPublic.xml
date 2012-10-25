@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="Objectpm" width="100%" type="pagedtable" menu="">
+  <title type="text" colWidth="160">
+    <en>Title</en>
+    <pt><![CDATA[Título]]></pt>
+  </title>
+  <category type="text" colWidth="100">
+    <en>Category</en>
+    <pt><![CDATA[Categoria]]></pt>
+  </category>
+  <version type="text" colWidth="50">
+    <en>Version</en>
+    <pt><![CDATA[Versão]]></pt>
+  </version>
+  <downloads type="text" colWidth="50">
+    <en>Downloads</en>
+    <pt><![CDATA[Downloads]]></pt>
+  </downloads>
+  <rating type="text" colWidth="50">
+    <en>Rating</en>
+    <pt><![CDATA[Rating]]></pt>
+  </rating>
+  <subscriptions type="text" colWidth="70">
+    <en>Subscriptions</en>
+    <pt><![CDATA[Subscrições]]></pt>
+  </subscriptions>
+  <user type="text" colWidth="80">
+    <en>Author</en>
+    <pt><![CDATA[Autor]]></pt>
+  </user>
+  <updateDate type="text" colWidth="120">
+    <en>Update Date</en>
+    <pt><![CDATA[Data de atualização]]></pt>
+  </updateDate>
+  <LINK type="link" colWidth="60" titleAlign="left" align="left" link="javascript:showDetails(@@guid);" value="@G::LoadTranslation(ID_VIEW)">
+    <en/>
+    <pt><![CDATA[Editar]]></pt>
+  </LINK>
+</dynaForm>

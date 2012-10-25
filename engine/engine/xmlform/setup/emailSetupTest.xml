@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="languages_ImportForm" type="xmlform" width="500" height="" labelWidth="30%">
+  <TITLE1 type="title">
+    <en>Mail System Test Page</en>
+    <pt><![CDATA[Página de teste do sistemal de eMail]]></pt>
+  </TITLE1>
+  <domain type="text" value="colosa.com">
+    <en>Domain</en>
+    <pt><![CDATA[Domínio]]></pt>
+  </domain>
+  <to_email type="text" size="40" default="">
+    <en>To:</en>
+    <pt><![CDATA[Para:]]></pt>
+  </to_email>
+  <from_name type="text" size="40" default="Test Sender">
+    <en>From Name:</en>
+    <pt><![CDATA[Nome de:]]></pt>
+  </from_name>
+  <from_email type="text" size="40" default="ian@colosa.com">
+    <en>From Email:</en>
+    <pt><![CDATA[Email de:]]></pt>
+  </from_email>
+  <subject type="text" size="40" default="spool test">
+    <en>Subject:</en>
+    <pt><![CDATA[Assunto:]]></pt>
+  </subject>
+  <body type="textarea" rows="8" cols="45" default="This is a test message">
+    <en>File</en>
+    <pt><![CDATA[Arquivo]]></pt>
+  </body>
+  <BTN_SUBMIT type="submit">
+    <en>Send Email</en>
+    <pt><![CDATA[Enviar email]]></pt>
+  </BTN_SUBMIT>
+</dynaForm>

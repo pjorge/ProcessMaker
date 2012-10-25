@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm width="500" mode="view" labelWidth="80">
+  <title2 type="title">
+    <en>WSDL Server Details</en>
+    <pt><![CDATA[WSDL Server Details]]></pt>
+  </title2>
+  <WS_HOST type="text" size="30" maxlength="64">
+    <en>Server</en>
+    <pt><![CDATA[Server]]></pt>
+  </WS_HOST>
+  <WS_PORT type="text" size="10" maxlength="64">
+    <en>Port</en>
+    <pt><![CDATA[Port]]></pt>
+  </WS_PORT>
+  <WSDL type="text" size="30" maxlength="64">
+    <en>WSDL URI</en>
+    <pt><![CDATA[WSDL URI]]></pt>
+  </WSDL>
+  <WS_WORKSPACE type="text" size="30" maxlength="64">
+    <en>Workspace</en>
+    <es>Espacio de Trabajo</es>
+    <pt><![CDATA[Workspace]]></pt>
+  </WS_WORKSPACE>
+  <WSID type="text" size="10" maxlength="64">
+    <en>Session ID</en>
+    <pt><![CDATA[Session ID]]></pt>
+  </WSID>
+</dynaForm>

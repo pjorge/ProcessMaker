@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" menu="reports/report1_back">
+  <PRO_TITLE type="text" align="left" colWidth="300">
+    <en>Processes</en>
+    <pt><![CDATA[Processos]]></pt>
+  </PRO_TITLE>
+  <CANTCASES type="text" align="right" colWidth="100">
+    <en>Total Cases</en>
+    <pt><![CDATA[Total de casos]]></pt>
+  </CANTCASES>
+  <MIN type="hours" align="right" colWidth="120">
+    <en>Best Completion Time</en>
+    <pt><![CDATA[Melhor tempo completo]]></pt>
+  </MIN>
+  <MAX type="hours" align="right" colWidth="120">
+    <en>Slowest Completion Time</en>
+    <pt><![CDATA[Pior tempo completo]]></pt>
+  </MAX>
+  <CASELASTMONTH type="text" align="right" colWidth="100">
+    <en>Cases last month</en>
+    <pt><![CDATA[Casos do último mês]]></pt>
+  </CASELASTMONTH>
+  <CASELASTDAY type="text" align="right" colWidth="100">
+    <en>Cases last day</en>
+    <pt><![CDATA[Casos do último dia]]></pt>
+  </CASELASTDAY>
+</dynaForm>

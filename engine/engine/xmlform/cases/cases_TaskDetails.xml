@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="cases_TaskDetails" type="xmlform" width="100%" labelWidth="35%">
+  <TASK type="text" mode="view">
+    <en>Title</en>
+    <pt><![CDATA[Título]]></pt>
+  </TASK>
+  <USER type="text" mode="view">
+    <en>User</en>
+    <pt><![CDATA[Usuário]]></pt>
+  </USER>
+  <INIT_DATE type="date" mode="view">
+    <en>Init Date</en>
+    <pt><![CDATA[Data de inicio]]></pt>
+  </INIT_DATE>
+  <DUE_DATE type="date" mode="view">
+    <en>Due date</en>
+    <pt><![CDATA[Data de validade]]></pt>
+  </DUE_DATE>
+  <FINISH type="text" mode="view">
+    <en>Finish date</en>
+    <pt><![CDATA[Data Final]]></pt>
+  </FINISH>
+  <DURATION type="text" mode="view">
+    <en>Duration</en>
+    <pt><![CDATA[Duração]]></pt>
+  </DURATION>
+</dynaForm>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm width="100%" rowsPerPage="5">
+  <id type="private" showInTable="0"/>
+  <name type="text" width="350" titleAlign="left" align="left">
+    <en>Var. name</en>
+    <pt><![CDATA[Var. name]]></pt>
+  </name>
+  <dynaform type="text" colWidth="350" titleAlign="left" align="left">
+    <en>Dynaform</en>
+    <pt><![CDATA[Dynaform]]></pt>
+  </dynaform>
+  <ASSIGN type="link" colWidth="40" value="@G::LoadTranslation(ID_ASSIGN)" link="#" onclick="e.toAdd(@qid, @qname, 'dyn');return false;"/>
+</dynaForm>

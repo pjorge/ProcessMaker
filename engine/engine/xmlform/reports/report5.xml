@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" menu="reports/report1_back">
+  <USER type="text" align="left" colWidth="100">
+    <en>User</en>
+    <pt><![CDATA[Usuário]]></pt>
+  </USER>
+  <CANTCASES type="text" align="right" colWidth="80">
+    <en>Total Cases</en>
+    <pt><![CDATA[Total de casos]]></pt>
+  </CANTCASES>
+  <MIN type="hours" align="right" colWidth="180">
+    <en>Best Completion Time</en>
+    <pt><![CDATA[Melhor tempo completo]]></pt>
+  </MIN>
+  <MAX type="hours" align="right" colWidth="180">
+    <en>Slowest Completion Time</en>
+    <pt><![CDATA[Pior tempo completo]]></pt>
+  </MAX>
+  <TOTALDUR type="hours" align="right" colWidth="150">
+    <en>Total Duration (Hours)</en>
+    <pt><![CDATA[Duração total (horas)]]></pt>
+  </TOTALDUR>
+  <PROMEDIO type="hours" align="right" colWidth="100">
+    <en>Average (Hours)</en>
+    <pt><![CDATA[Média (horas)]]></pt>
+  </PROMEDIO>
+</dynaForm>

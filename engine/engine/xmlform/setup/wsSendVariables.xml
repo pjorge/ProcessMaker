@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="SendVariables" width="500" mode="edit" border="0" enableTemplate="0" height="250px">
+  <SESSION_ID type="text" size="36" maxlength="32">
+    <en>Session Id</en>
+    <es><![CDATA[Id de Sesión]]></es>
+    <pt><![CDATA[ID da sessão]]></pt>
+  </SESSION_ID>
+  <CASE_ID type="dropdown" sqlConnection="dbarray">
+  SELECT * from case
+  <en>Case ID</en>
+<es>ID de Caso</es><pt><![CDATA[ID do caso]]></pt></CASE_ID>
+  <NAME1 type="text" size="20" maxlength="32" mode="edit">
+    <en>Name 1</en>
+    <es>Nombre 1</es>
+    <pt><![CDATA[Nome 1]]></pt>
+  </NAME1>
+  <VALUE1 type="text" size="20" maxlength="32" mode="edit">
+    <en>Value 1</en>
+    <es>Valor 1</es>
+    <pt><![CDATA[Valor 1]]></pt>
+  </VALUE1>
+  <NAME2 type="text" size="20" maxlength="32" mode="edit">
+    <en>Name 2</en>
+    <es>Nombre 2</es>
+    <pt><![CDATA[Nome 2]]></pt>
+  </NAME2>
+  <VALUE2 type="text" size="20" maxlength="32" mode="edit">
+    <en>Value 2</en>
+    <es>Valor 2</es>
+    <pt><![CDATA[Valor 2]]></pt>
+  </VALUE2>
+  <ACTION type="hidden">
+</ACTION>
+  <ACTIONB type="button" onclick="submitThisForm(this.form);">
+    <en>SendVariables</en>
+    <es>Variables Enviadas</es>
+    <pt><![CDATA[SendVariables]]></pt>
+  </ACTIONB>
+</dynaForm>

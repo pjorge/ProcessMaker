@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" width="100%" rowsPerPage="3">
+  <FECHA type="text" align="center">
+    <en>Date</en>
+    <pt><![CDATA[Dados]]></pt>
+  </FECHA>
+  <CANTCASES type="text" align="center">
+    <en>Total Cases</en>
+    <pt><![CDATA[Total de casos]]></pt>
+  </CANTCASES>
+  <MAX type="hours" align="center">
+    <en>Slowest Time</en>
+    <pt><![CDATA[Pior tempo]]></pt>
+  </MAX>
+  <TOTALDUR type="hours" align="center">
+    <en>Total Duration</en>
+    <pt><![CDATA[Duração total]]></pt>
+  </TOTALDUR>
+  <PROMEDIO type="hours" align="center">
+    <en>Average</en>
+    <pt><![CDATA[Média]]></pt>
+  </PROMEDIO>
+</dynaForm>

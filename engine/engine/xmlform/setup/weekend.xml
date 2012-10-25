@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="setup/weekend" width="450" xmlform_type="NORMAL">
+  <TITLE9592 type="title" group="9">
+    <en>Weekend days</en>
+    <pt><![CDATA[Dias de final de semana]]></pt>
+  </TITLE9592>
+  <MONDAY type="checkbox" group="1">
+    <en>Monday</en>
+    <pt><![CDATA[Segunda]]></pt>
+  </MONDAY>
+  <TUESDAY type="checkbox" group="1">
+    <en>Tuesday</en>
+    <pt><![CDATA[Terça]]></pt>
+  </TUESDAY>
+  <WEDNESDAY type="checkbox" group="1">
+    <en>Wednesday</en>
+    <pt><![CDATA[Quarta]]></pt>
+  </WEDNESDAY>
+  <THURSDAY type="checkbox" group="1">
+    <en>Thursday</en>
+    <pt><![CDATA[Quinta]]></pt>
+  </THURSDAY>
+  <FRIDAY type="checkbox" group="1">
+    <en>Friday</en>
+    <pt><![CDATA[Sexta]]></pt>
+  </FRIDAY>
+  <SATURDAY type="checkbox" group="1">
+    <en>Saturday</en>
+    <pt><![CDATA[Sábado]]></pt>
+  </SATURDAY>
+  <SUNDAY type="checkbox" group="1">
+    <en>Sunday</en>
+    <pt><![CDATA[Domingo]]></pt>
+  </SUNDAY>
+  <BSUBMIT type="button" onclick="on_submit(this.form)" group="1">
+    <en>Accept</en>
+    <pt><![CDATA[Aceitar]]></pt>
+  </BSUBMIT>
+</dynaForm>
