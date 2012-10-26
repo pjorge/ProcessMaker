@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dynaForm type="xmlmenu">
-  <backs type="link" link="tracker_Messages" onclick="">
-    <en>Back</en>
-    <pt-BR><![CDATA[Voltar]]></pt-BR>
-    <pt><![CDATA[Voltar]]></pt>
-  </backs>
-</dynaForm>

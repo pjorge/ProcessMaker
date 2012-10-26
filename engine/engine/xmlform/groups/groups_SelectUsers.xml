@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dynaForm type="xmlform" width="60%">
-  <BTN_SUBMIT type="button" onclick="selectionX();">
-    <en>Assign</en>
-    <pt><![CDATA[Atribuir]]></pt>
-  </BTN_SUBMIT>
-</dynaForm>
